@@ -1,0 +1,9 @@
+﻿  particle.cpp
+c:\users\pamela\source\repos\agua\agua\agua\particle.cpp(133): warning C4018: '<': no coinciden signed/unsigned
+c:\users\pamela\source\repos\agua\agua\agua\particle.cpp(149): warning C4018: '<': no coinciden signed/unsigned
+c:\users\pamela\source\repos\agua\agua\agua\particle.cpp(181): warning C4018: '<': no coinciden signed/unsigned
+LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+util.obj : error LNK2019: símbolo externo _SOIL_load_image sin resolver al que se hace referencia en la función "unsigned int __cdecl loadCubeMap(char const *,char const *,char const *,char const *,char const *,char const *)" (?loadCubeMap@@YAIPBD00000@Z)
+util.obj : error LNK2019: símbolo externo _SOIL_free_image_data sin resolver al que se hace referencia en la función "unsigned int __cdecl loadCubeMap(char const *,char const *,char const *,char const *,char const *,char const *)" (?loadCubeMap@@YAIPBD00000@Z)
+util.obj : error LNK2019: símbolo externo _SOIL_last_result sin resolver al que se hace referencia en la función "unsigned int __cdecl loadCubeMap(char const *,char const *,char const *,char const *,char const *,char const *)" (?loadCubeMap@@YAIPBD00000@Z)
+C:\Users\Pamela\source\repos\AGUA\agua\Debug\agua.exe : fatal error LNK1120: 3 externos sin resolver

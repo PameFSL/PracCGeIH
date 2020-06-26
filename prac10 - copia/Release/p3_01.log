@@ -1,0 +1,22 @@
+﻿  Camera.cpp
+c1xx : fatal error C1083: No se puede abrir el archivo origen: 'Camera.cpp': No such file or directory
+  DirectionalLight.cpp
+c1xx : fatal error C1083: No se puede abrir el archivo origen: 'DirectionalLight.cpp': No such file or directory
+  Light.cpp
+c:\users\pamela\source\repos\prac10 - copia\light.cpp(1): fatal error C1083: No se puede abrir el archivo incluir: 'Light.h': No such file or directory
+  Mesh_tn.cpp
+c1xx : fatal error C1083: No se puede abrir el archivo origen: 'Mesh_tn.cpp': No such file or directory
+  Model.cpp
+c:\users\pamela\source\repos\prac10 - copia\model.h(8): fatal error C1083: No se puede abrir el archivo incluir: 'Mesh_texturizado.h': No such file or directory
+  PointLight.cpp
+c1xx : fatal error C1083: No se puede abrir el archivo origen: 'PointLight.cpp': No such file or directory
+  practica10_alumno.cpp
+c:\users\pamela\source\repos\prac10 - copia\window.h(12): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+c:\users\pamela\source\repos\prac10 - copia\window.h(13): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+c:\users\pamela\source\repos\prac10 - copia\practica10_alumno.cpp(30): fatal error C1083: No se puede abrir el archivo incluir: 'Mesh_texturizado.h': No such file or directory
+  Shader_light.cpp
+c1xx : fatal error C1083: No se puede abrir el archivo origen: 'Shader_light.cpp': No such file or directory
+  Skybox.cpp
+c1xx : fatal error C1083: No se puede abrir el archivo origen: 'Skybox.cpp': No such file or directory
+  SpotLight.cpp
+c:\users\pamela\source\repos\prac10 - copia\spotlight.h(2): fatal error C1083: No se puede abrir el archivo incluir: 'PointLight.h': No such file or directory

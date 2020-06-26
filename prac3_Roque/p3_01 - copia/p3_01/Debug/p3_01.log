@@ -1,0 +1,5 @@
+﻿  practica3.cpp
+c:\users\pamela\source\repos\prac3_roque\p3_01\p3_01\window.h(12): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+c:\users\pamela\source\repos\prac3_roque\p3_01\p3_01\window.h(13): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+c:\users\pamela\source\repos\prac3_roque\p3_01\p3_01\practica3.cpp(17): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+  p3_01.vcxproj -> C:\Users\Pamela\source\repos\prac3_Roque\p3_01\Debug\p3_01.exe

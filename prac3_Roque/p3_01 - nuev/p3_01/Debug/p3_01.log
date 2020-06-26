@@ -1,0 +1,25 @@
+﻿  Window.cpp
+c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\window.h(12): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\window.h(13): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\window.cpp(116): warning C4473: "printf": no se pasaron suficientes argumentos para la cadena de formato
+  c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\window.cpp(116): note: los marcadores de posición y sus parámetros esperan 2 argumentos variádicos, pero se proporcionaron 1
+  c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\window.cpp(116): note: el argumento variádico 2 que falta es requerido por la cadena de formato '%d'
+c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\window.cpp(117): warning C4305: '+=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\window.cpp(123): warning C4473: "printf": no se pasaron suficientes argumentos para la cadena de formato
+  c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\window.cpp(123): note: los marcadores de posición y sus parámetros esperan 2 argumentos variádicos, pero se proporcionaron 1
+  c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\window.cpp(123): note: el argumento variádico 2 que falta es requerido por la cadena de formato '%d'
+c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\window.cpp(127): warning C4305: '+=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\window.cpp(130): warning C4305: '-=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\window.cpp(133): warning C4305: '-=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\window.cpp(136): warning C4305: '+=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\window.cpp(139): warning C4305: '-=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\window.cpp(142): warning C4305: '+=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\window.cpp(145): warning C4305: '+=': truncamiento de 'double' a 'float'
+  p3.cpp
+c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\window.h(12): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\window.h(13): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\p3.cpp(17): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\p3.cpp(126): warning C4244: '=': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+  Generando código...
+c:\users\pamela\source\repos\prac3_roque\p3_01 - nuev\p3_01\window.cpp(82): warning C4715: 'Window::Initialise': no todas las rutas de acceso de control devuelven un valor
+  p3_01.vcxproj -> C:\Users\Pamela\source\repos\prac3_Roque\p3_01 - nuev\Debug\p3_01.exe

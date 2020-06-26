@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\pamela\source\repos\agua\agua\agua\main.cpp(3): fatal error C1083: No se puede abrir el archivo incluir: 'glew.h': No such file or directory
+  particle.cpp
+c:\users\pamela\source\repos\agua\agua\agua\particle.cpp(3): fatal error C1083: No se puede abrir el archivo incluir: 'glew.h': No such file or directory
+  Generando código...

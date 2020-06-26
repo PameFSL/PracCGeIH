@@ -1,0 +1,32 @@
+﻿  ParticleSystemPCH.cpp
+  Camera.cpp
+c:\users\pamela\source\repos\agua\particleeffect\particlesystem\src\camera.cpp(14): error C2039: 'max': no es un miembro de 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\map(20): note: vea la declaración de 'std'
+c:\users\pamela\source\repos\agua\particleeffect\particlesystem\src\camera.cpp(14): error C3861: 'max': no se encontró el identificador
+  CubeEmitter.cpp
+  ElapsedTime.cpp
+c:\users\pamela\source\repos\agua\particleeffect\particlesystem\src\elapsedtime.cpp(16): error C2039: 'min': no es un miembro de 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\map(20): note: vea la declaración de 'std'
+c:\users\pamela\source\repos\agua\particleeffect\particlesystem\src\elapsedtime.cpp(16): error C3861: 'min': no se encontró el identificador
+  main.cpp
+c:\users\pamela\source\repos\agua\particleeffect\particlesystem\src\main.cpp(271): error C2039: 'max': no es un miembro de 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\map(20): note: vea la declaración de 'std'
+c:\users\pamela\source\repos\agua\particleeffect\particlesystem\src\main.cpp(271): error C3861: 'max': no se encontró el identificador
+c:\users\pamela\source\repos\agua\particleeffect\particlesystem\src\main.cpp(272): error C2039: 'max': no es un miembro de 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\map(20): note: vea la declaración de 'std'
+c:\users\pamela\source\repos\agua\particleeffect\particlesystem\src\main.cpp(272): error C3861: 'max': no se encontró el identificador
+c:\users\pamela\source\repos\agua\particleeffect\particlesystem\src\main.cpp(280): error C2039: 'min': no es un miembro de 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\map(20): note: vea la declaración de 'std'
+c:\users\pamela\source\repos\agua\particleeffect\particlesystem\src\main.cpp(280): error C3861: 'min': no se encontró el identificador
+c:\users\pamela\source\repos\agua\particleeffect\particlesystem\src\main.cpp(281): error C2039: 'min': no es un miembro de 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\map(20): note: vea la declaración de 'std'
+c:\users\pamela\source\repos\agua\particleeffect\particlesystem\src\main.cpp(281): error C3861: 'min': no se encontró el identificador
+c:\users\pamela\source\repos\agua\particleeffect\particlesystem\src\main.cpp(365): error C2039: 'max': no es un miembro de 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\map(20): note: vea la declaración de 'std'
+c:\users\pamela\source\repos\agua\particleeffect\particlesystem\src\main.cpp(365): error C3861: 'max': no se encontró el identificador
+  ParticleEffect.cpp
+  PivotCamera.cpp
+c:\users\pamela\source\repos\agua\particleeffect\particlesystem\src\pivotcamera.cpp(13): error C2039: 'min': no es un miembro de 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\map(20): note: vea la declaración de 'std'
+c:\users\pamela\source\repos\agua\particleeffect\particlesystem\src\pivotcamera.cpp(13): error C3861: 'min': no se encontró el identificador
+  SphereEmitter.cpp

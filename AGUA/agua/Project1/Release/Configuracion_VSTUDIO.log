@@ -1,0 +1,226 @@
+﻿  practica10_alumno.cpp
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\window.h(11): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\window.h(12): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(1): error C2059: error de sintaxis: '<'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(57): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(91): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(104): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(107): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(108): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(109): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(111): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(112): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(113): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(114): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(115): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(119): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(120): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(121): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(122): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(126): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(127): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(128): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(129): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(130): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(132): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(132): error C2440: 'inicializando': no se puede realizar la conversión de 'const char [9]' a 'int'
+  c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(132): note: No existe un contexto en el que sea posible realizar esta conversión
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(132): error C2146: error de sintaxis: falta ';' delante del identificador 'fill'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(132): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(136): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(137): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(137): error C2059: error de sintaxis: '<'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(138): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(139): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(140): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(141): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(142): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(143): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(144): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(145): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(146): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(149): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(150): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(150): error C2059: error de sintaxis: '<'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(151): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(151): error C2059: error de sintaxis: '<'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(156): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(157): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(160): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(161): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(162): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(164): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(164): error C2374: 'space': nueva definición; inicialización múltiple
+  c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(132): note: vea la declaración de 'space'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(164): error C2440: 'inicializando': no se puede realizar la conversión de 'const char [9]' a 'int'
+  c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(164): note: No existe un contexto en el que sea posible realizar esta conversión
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(164): error C2146: error de sintaxis: falta ';' delante del identificador 'fill'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(164): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(169): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(170): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(171): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(171): error C2059: error de sintaxis: '<'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(174): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(174): error C2143: error de sintaxis: falta ';' delante de '<'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(174): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(175): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(176): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(177): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(178): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(179): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(180): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(183): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(184): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(185): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(186): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(187): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(193): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(194): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(197): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(198): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(199): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(201): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(201): error C2374: 'space': nueva definición; inicialización múltiple
+  c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(132): note: vea la declaración de 'space'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(201): error C2440: 'inicializando': no se puede realizar la conversión de 'const char [9]' a 'int'
+  c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(201): note: No existe un contexto en el que sea posible realizar esta conversión
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(201): error C2146: error de sintaxis: falta ';' delante del identificador 'fill'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(201): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(206): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(207): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(207): error C2059: error de sintaxis: '<'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(209): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(210): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(211): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(214): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(215): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(215): error C2059: error de sintaxis: '<'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(216): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(216): error C2059: error de sintaxis: '<'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(224): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(225): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(226): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(233): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(234): error C2001: nueva línea en constante
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(234): error C2015: hay demasiados caracteres en la constante
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(235): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(237): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(252): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(253): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(255): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(257): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(260): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(261): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(261): fatal error C1003: el recuento de errores supera 100; se detiene la compilación
+  Sphere.cpp
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(1): error C2059: error de sintaxis: '<'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(57): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(91): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(104): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(107): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(108): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(109): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(111): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(112): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(113): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(114): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(115): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(119): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(120): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(121): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(122): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(126): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(127): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(128): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(129): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(130): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(132): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(132): error C2440: 'inicializando': no se puede realizar la conversión de 'const char [9]' a 'int'
+  c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(132): note: No existe un contexto en el que sea posible realizar esta conversión
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(132): error C2146: error de sintaxis: falta ';' delante del identificador 'fill'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(132): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(136): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(137): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(137): error C2059: error de sintaxis: '<'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(138): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(139): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(140): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(141): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(142): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(143): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(144): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(145): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(146): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(149): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(150): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(150): error C2059: error de sintaxis: '<'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(151): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(151): error C2059: error de sintaxis: '<'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(156): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(157): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(160): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(161): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(162): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(164): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(164): error C2374: 'space': nueva definición; inicialización múltiple
+  c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(132): note: vea la declaración de 'space'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(164): error C2440: 'inicializando': no se puede realizar la conversión de 'const char [9]' a 'int'
+  c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(164): note: No existe un contexto en el que sea posible realizar esta conversión
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(164): error C2146: error de sintaxis: falta ';' delante del identificador 'fill'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(164): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(169): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(170): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(171): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(171): error C2059: error de sintaxis: '<'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(174): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(174): error C2143: error de sintaxis: falta ';' delante de '<'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(174): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(175): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(176): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(177): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(178): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(179): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(180): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(183): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(184): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(185): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(186): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(187): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(193): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(194): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(197): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(198): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(199): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(201): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(201): error C2374: 'space': nueva definición; inicialización múltiple
+  c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(132): note: vea la declaración de 'space'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(201): error C2440: 'inicializando': no se puede realizar la conversión de 'const char [9]' a 'int'
+  c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(201): note: No existe un contexto en el que sea posible realizar esta conversión
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(201): error C2146: error de sintaxis: falta ';' delante del identificador 'fill'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(201): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(206): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(207): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(207): error C2059: error de sintaxis: '<'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(209): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(210): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(211): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(214): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(215): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(215): error C2059: error de sintaxis: '<'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(216): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(216): error C2059: error de sintaxis: '<'
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(224): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(225): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(226): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(233): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(234): error C2001: nueva línea en constante
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(234): error C2015: hay demasiados caracteres en la constante
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(235): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(237): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(252): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(253): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(255): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(257): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(260): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(261): error C2332: 'class': falta el nombre de etiqueta
+c:\users\cgi05\desktop\p9\p9\configuracion_vstudio\configuracion_vstudio\sphere.h(261): fatal error C1003: el recuento de errores supera 100; se detiene la compilación

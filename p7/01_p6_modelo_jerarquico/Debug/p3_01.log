@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: El directorio intermedio (Debug\) contiene archivos compartidos de otro proyecto (prac2.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+  practica7REAL_dodecaedro.cpp
+d:\octavo\compu_grafica\practicas\p7\01_p6_modelo_jerarquico\window.h(12): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+d:\octavo\compu_grafica\practicas\p7\01_p6_modelo_jerarquico\window.h(13): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+d:\octavo\compu_grafica\practicas\p7\01_p6_modelo_jerarquico\practica7real_dodecaedro.cpp(30): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+d:\octavo\compu_grafica\practicas\p7\01_p6_modelo_jerarquico\practica7real_dodecaedro.cpp(203): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+d:\octavo\compu_grafica\practicas\p7\01_p6_modelo_jerarquico\practica7real_dodecaedro.cpp(241): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  p3_01.vcxproj -> D:\OCTAVO\COMPU_GRAFICA\PRACTICAS\p7\01_p6_modelo_jerarquico\Debug\p3_01.exe

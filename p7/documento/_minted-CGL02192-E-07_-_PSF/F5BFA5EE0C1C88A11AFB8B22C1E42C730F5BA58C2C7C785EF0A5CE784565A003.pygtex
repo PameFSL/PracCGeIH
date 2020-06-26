@@ -1,0 +1,54 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{void} \PYG{n+nf}{CrearCubo}\PYG{p}{()}
+\PYG{p}{\PYGZob{}}
+	\PYG{k+kt}{unsigned} \PYG{k+kt}{int} \PYG{n}{cubo\PYGZus{}indices}\PYG{p}{[]} \PYG{o}{=} \PYG{p}{\PYGZob{}}
+		\PYG{c+c1}{// front}
+		\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{,}
+		\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,}
+		\PYG{c+c1}{// right}
+		\PYG{l+m+mi}{8}\PYG{p}{,}\PYG{l+m+mi}{9}\PYG{p}{,}\PYG{l+m+mi}{10}\PYG{p}{,}
+		\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{l+m+mi}{11}\PYG{p}{,}\PYG{l+m+mi}{8}\PYG{p}{,}
+		\PYG{c+c1}{// back}
+		\PYG{l+m+mi}{7}\PYG{p}{,} \PYG{l+m+mi}{6}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{,}
+		\PYG{l+m+mi}{5}\PYG{p}{,} \PYG{l+m+mi}{4}\PYG{p}{,} \PYG{l+m+mi}{7}\PYG{p}{,}
+		\PYG{c+c1}{// left}
+		\PYG{l+m+mi}{12}\PYG{p}{,}\PYG{l+m+mi}{13}\PYG{p}{,}\PYG{l+m+mi}{14}\PYG{p}{,}
+		\PYG{l+m+mi}{14}\PYG{p}{,}\PYG{l+m+mi}{15}\PYG{p}{,}\PYG{l+m+mi}{12}\PYG{p}{,}
+		\PYG{c+c1}{// bottom}
+		\PYG{l+m+mi}{4}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,}
+		\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{4}\PYG{p}{,}
+		\PYG{c+c1}{// top}
+		\PYG{l+m+mi}{16}\PYG{p}{,} \PYG{l+m+mi}{17}\PYG{p}{,} \PYG{l+m+mi}{18}\PYG{p}{,}
+		\PYG{l+m+mi}{18}\PYG{p}{,} \PYG{l+m+mi}{19}\PYG{p}{,} \PYG{l+m+mi}{16}
+	\PYG{p}{\PYGZcb{};}
+
+\PYG{n}{GLfloat} \PYG{n}{cubo\PYGZus{}vertices}\PYG{p}{[]} \PYG{o}{=} \PYG{p}{\PYGZob{}}
+	\PYG{c+c1}{// front}
+	\PYG{c+c1}{//x      y       z      u	   v}
+	\PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,}	 \PYG{l+m+mf}{0.33f}\PYG{p}{,}   \PYG{c+c1}{//0}
+	\PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,}   \PYG{l+m+mf}{0.5f}\PYG{p}{,}	 \PYG{l+m+mf}{0.66f}\PYG{p}{,}   \PYG{c+c1}{//1}
+	\PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,}   \PYG{l+m+mf}{0.25f}\PYG{p}{,} \PYG{l+m+mf}{0.66f}\PYG{p}{,}   \PYG{c+c1}{//2}
+	\PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.25f}\PYG{p}{,} \PYG{l+m+mf}{0.33f}\PYG{p}{,}   \PYG{c+c1}{//3}
+	\PYG{c+c1}{// back}
+	\PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.75f}\PYG{p}{,} \PYG{l+m+mf}{0.33f}\PYG{p}{,}   \PYG{c+c1}{//4}
+	\PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}   \PYG{l+m+mf}{0.75f}\PYG{p}{,} \PYG{l+m+mf}{0.66f}\PYG{p}{,}   \PYG{c+c1}{//5}
+	\PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}   \PYG{l+m+mf}{1.0f}\PYG{p}{,}  \PYG{l+m+mf}{0.66f}\PYG{p}{,}   \PYG{c+c1}{//6}
+	\PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{1.0f}\PYG{p}{,}  \PYG{l+m+mf}{0.33f}\PYG{p}{,}   \PYG{c+c1}{//7}
+
+	\PYG{c+c1}{//agregando dotos faltantes}
+	\PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,}    \PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{l+m+mf}{0.66f}\PYG{p}{,}   \PYG{c+c1}{//1  8}
+	\PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}    \PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{l+m+mf}{1.00f}\PYG{p}{,}   \PYG{c+c1}{//5  9}
+	\PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}    \PYG{l+m+mf}{.25f}\PYG{p}{,} \PYG{l+m+mf}{1.0f}\PYG{p}{,}   \PYG{c+c1}{//6  10}
+	\PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,}    \PYG{l+m+mf}{.25f}\PYG{p}{,} \PYG{l+m+mf}{0.66f}\PYG{p}{,}   \PYG{c+c1}{//2  11}
+
+	\PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}    \PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{l+m+mf}{0.0f}\PYG{p}{,}   \PYG{c+c1}{//4  12}
+	\PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,}    \PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{l+m+mf}{0.33f}\PYG{p}{,}   \PYG{c+c1}{//0  13}
+	\PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,}    \PYG{l+m+mf}{.25f}\PYG{p}{,} \PYG{l+m+mf}{0.33f}\PYG{p}{,}   \PYG{c+c1}{//3  14}
+	\PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}    \PYG{l+m+mf}{.25f}\PYG{p}{,} \PYG{l+m+mf}{0.0f}\PYG{p}{,}   \PYG{c+c1}{//7   15}
+
+	\PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,}    \PYG{l+m+mf}{.25f}\PYG{p}{,}	\PYG{l+m+mf}{.33f}\PYG{p}{,}    \PYG{c+c1}{//3   16}
+	\PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,}     \PYG{l+m+mf}{.25f}\PYG{p}{,}	\PYG{l+m+mf}{.66f}\PYG{p}{,}   \PYG{c+c1}{//2	   17	}
+	\PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}     \PYG{l+m+mf}{0.0f}\PYG{p}{,}	\PYG{l+m+mf}{0.66f}\PYG{p}{,}   \PYG{c+c1}{//6   18}
+	\PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}  \PYG{l+m+mf}{0.5f}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.5f}\PYG{p}{,}    \PYG{l+m+mf}{0.0f}\PYG{p}{,}	\PYG{l+m+mf}{0.33f}\PYG{p}{,}   \PYG{c+c1}{//7   19}
+\PYG{p}{\PYGZcb{};}
+\end{Verbatim}

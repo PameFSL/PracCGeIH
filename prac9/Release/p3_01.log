@@ -1,0 +1,28 @@
+﻿  practica9_alumno.cpp
+c:\users\pamela\source\repos\prac9\window.h(12): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+c:\users\pamela\source\repos\prac9\window.h(13): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+c:\users\pamela\source\repos\prac9\practica9_alumno.cpp(296): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+c:\users\pamela\source\repos\prac9\practica9_alumno.cpp(309): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+c:\users\pamela\source\repos\prac9\practica9_alumno.cpp(320): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+c:\users\pamela\source\repos\prac9\practica9_alumno.cpp(327): warning C4305: '+=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac9\practica9_alumno.cpp(328): warning C4305: '+=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac9\practica9_alumno.cpp(337): warning C4305: '+=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac9\practica9_alumno.cpp(338): warning C4305: '-=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac9\practica9_alumno.cpp(347): warning C4305: '-=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac9\practica9_alumno.cpp(348): warning C4305: '+=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac9\practica9_alumno.cpp(355): warning C4305: '-=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac9\practica9_alumno.cpp(362): warning C4305: '-=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac9\practica9_alumno.cpp(363): warning C4305: '-=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac9\practica9_alumno.cpp(371): warning C4305: '=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac9\practica9_alumno.cpp(372): warning C4305: '+=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac9\practica9_alumno.cpp(373): warning C4305: '-=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac9\practica9_alumno.cpp(383): warning C4305: '=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac9\practica9_alumno.cpp(384): warning C4305: '+=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac9\practica9_alumno.cpp(385): warning C4305: '-=': truncamiento de 'double' a 'float'
+c:\users\pamela\source\repos\prac9\practica9_alumno.cpp(395): warning C4244: '+=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  Generando código
+  36 of 911 functions ( 4.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Generación de código finalizada
+  p3_01.vcxproj -> C:\Users\Pamela\source\repos\prac9\Release\p3_01.exe

@@ -1,0 +1,259 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+\usepackage{enumerate}
+\usepackage{listings}
+\usepackage{minted}
+\geometry{margin=1in}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{ragged2e}
+
+\usepackage{minted}
+\usepackage{rotating}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{pstricks}
+\usepackage{makecell}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+
+\fancyhead[l]{Laboratorio de Computación Gráfica e Interacción humano-computadora}
+\fancyhead[r]{Grupo: 02}
+\fancyfoot[r]{\thepage}
+
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{longtable}
+\usetikzlibrary{automata, positioning, arrows,shapes.misc, shapes.arrows, chains,matrix,positioning,% wg. " of "
+	scopes,%
+	decorations.pathmorphing,% /pgf/decoration/random steps | erste Graphik
+	shadows}
+\renewcommand{\refname}{Referencias}
+\renewcommand{\contentsname}{Contenidos}
+\renewcommand{\figurename}{Figura}
+\renewcommand{\partname}{Parte}
+
+\begin{document}
+	
+	\begin{titlepage}
+		
+		\newcommand{\HRule}{\rule{\linewidth}{0.5 mm}} % Define comando para lineas horizontales
+		
+		\centering % Centra todo en la pagina
+		
+			%----------------------------------------------------------------------------------------
+		%   LOGO SECTION
+		%----------------------------------------------------------------------------------------
+		
+		\includegraphics[scale = 0.235]{img/logo.png} % Logo
+		\hspace{4cm}
+		\includegraphics[scale = .32]{img/fi.png}\\[.65cm] % Logo
+	%----------------------------------------------------------------------------------------
+		%   ENCABEZADO
+		%----------------------------------------------------------------------------------------
+		
+		\textsc{\large \bfseries UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO}\\[.5 cm] % Nombre de universidad
+		\textsc{\large FACULTAD DE INGENIERÍA}\\[0.5 cm] % Division
+		\textsc{\large Ingeniería en Computación}\\[1.4 cm] % Carrera
+		
+		%----------------------------------------------------------------------------------------
+		%   TITLE SECTION
+		%----------------------------------------------------------------------------------------
+		{\large LABORATORIO DE COMPUTACIÓN GRÁFICA\\ E INTERACCIÓN HUMANO COMPUTADORA}\\[.4 cm] % Materia
+		% llllllllllllllllllllllllllllllllllllll
+		\textsc{\large Grupo: 02}\\[1.5 cm]
+		\textsc{\large Ejercicio de clase}\\[0.5 cm]
+		\textsc{\large Práctica Número 4}\\[1.5 cm]
+		{\large Alumna: Pamela Salgado Fernández Pamela}\\[.3 cm]
+		{\large Número de Cuenta: 313236505}\\[.3 cm]
+		{\large Email: pame501@yahoo.com.mx}\\[1.6 cm]
+		\raggedleft 
+		{\large Semestre 2019-2}\\[.3 cm]
+		\textsc{\large Grupo de teoría: 1}\\[.3 cm]
+		{\large Fecha de entrega límite: 27/02/2019}\\[.5 cm] 
+
+
+			%----------------------------------------------------------------------------------------
+		
+		\vfill % Llenar el resto de la página con espacio en blanco
+		 
+		
+	\end{titlepage}
+	\tableofcontents
+	\newpage
+	\noindent
+\section{Actividades realizadas}
+\justify
+Para la actividad de clase, el profesor nos solicitó que a partir del código que nos proporcionó, lo modificáramos para crear 9 triángulos, es decir, instanciar varias veces la figura.
+\vspace{.35cm}
+Para la segunda actividad de clase, fue necesario asignar un color diferente a cada uno de los triángulos.
+\justify
+\subsection{Instanciar el triángulo varias veces}
+Para poder crear varios triángulos solo fue necesario llamar de nuevo a model para inicializar de nuevo la matriz y una vez teniendo la matriz agregamos todos los datos necesarios para que nuestro otro triangulo se vea (escala,translación y rotación) y se los  . \\[.15cm]
+En practica4.cpp dentro del while que se encuentra en la linea 151, se agregan los demás triángulos:
+
+	\begin{minted}[breaklines]{C++}
+//************************************************************************
+//creamos los diferentes triangulos 
+//HACIA ABAJO
+//a model le paso una matriz identidad para resetear los datos 
+model = glm::mat4(1.0);
+model = glm::translate(model, glm::vec3(-0.15f, -0.3f, -1.0f));
+model = glm::scale(model, glm::vec3(0.3f, 0.3f, 0.3f));
+model = glm::rotate(model,  180* toRadians, glm::vec3(1.0f, 0.0f, 0.0f));
+glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+meshList[1]->RenderMesh();
+
+		//segundo Triangulo
+//a model le paso una matriz identidad para resetear los datos 
+model = glm::mat4(1.0);
+model = glm::translate(model, glm::vec3(0.15f, -0.3f, -1.0f));
+model = glm::scale(model, glm::vec3(0.3f, 0.3f, 0.3f));
+model = glm::rotate(model, 180 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f));
+glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+meshList[2]->RenderMesh();
+
+		// Tercer triangulo
+//a model le paso una matriz identidad para resetear los datos 
+model = glm::mat4(1.0);
+model = glm::translate(model, glm::vec3(0.3f, -0.3f, -1.0f));
+model = glm::scale(model, glm::vec3(0.3f, 0.3f, 0.3f));
+glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+meshList[3]->RenderMesh();
+
+//************************************************************************
+	\end{minted}
+	
+\vspace{.1cm}	
+\justify
+Este mismo procedimiento se sigue para los otros triángulos.
+
+\subsubsection{Ejecución del programa}
+	\centering 
+	\includegraphics[scale = .90]{img/01_p4.JPG}\\[.25cm] % Imagen1
+	Figura 1 \\[.55cm]
+	\vspace{0.4 cm}
+	
+	
+\raggedright	
+\subsection{Cambiar color a cada uno de los triángulos}
+\justify
+Para cambiar el color de los triángulos, fue necesario crear 9 VBOs, los cuales contenían el color que se asignaría a cada uno de los triángulos, para ello nos apoyamos también en una función llamada genera\_color().\\[.02cm]
+
+	\begin{minted}[breaklines]{C++}
+//************************************************************************
+
+// creamos VBO's los cuales nos darán el color de cada vertice
+	GLfloat color_triangulo[] = {
+		c1, c2, c3, 1.0f,
+		c1, c2, c3, 1.0f,
+		c1, c2, c3, 1.0f,
+		c1, c2, c3, 1.0f,
+	};
+
+	GLfloat color_triangulo1[] = {
+	c2, c2, c1, 1.0f,
+	c2, c2, c1, 1.0f,
+	c2, c2, c1, 1.0f,
+	c2, c2, c1, 1.0f,
+	};
+	genera_color();
+	GLfloat color_triangulo2[] = {
+	c2, c1, 0.0f, 1.0f,
+	c2, c1, 0.0f, 1.0f,
+	c2, c1, 0.0f, 1.0f,
+	c2, c1, 0.0f, 1.0f,
+	};
+	genera_color();
+	GLfloat color_triangulo3[] = {
+	c4, 0, c1, 1.0f,
+	c4, 0, c1, 1.0f,
+	c4, 0,c1, 1.0f,
+	c4, 0, c1, 1.0f,
+	};
+
+//************************************************************************
+	\end{minted}
+	
+Esto se realiza para cada uno de los triángulos.\\
+La función para cambiar de color es la siguiente:
+\vspace{.25cm}
+
+	\begin{minted}[breaklines]{C++}
+	//**** para cambiar el color *******
+float c1= 1.0f, c2=0.0f, c3=0.0, c4=0.8;
+void genera_color() {
+	c1 = 0;
+	c1 = 0.3 + (float)rand() / RAND_MAX;
+	c2 = 0;
+	c2 = 0.6 + (float)rand() / RAND_MAX;
+	c3 = 0;
+	c3 = 0.5 + (float)rand() / RAND_MAX;
+	c4 = 0;
+	c4 = 0.6 + (float)rand() / RAND_MAX;
+}
+	\end{minted}
+	
+También se modificó mesh.cpp para que recibiera el VAO del color.
+
+
+	\begin{minted}[breaklines]{C++}
+void Mesh::CreateMesh(GLfloat *vertices, unsigned int *indices, unsigned int numOfVertices, unsigned int numberOfIndices, GLfloat *color, unsigned int tam_color)
+{
+
+	indexCount = numberOfIndices;
+	glGenVertexArrays(1, &VAO); //generar 1 VAO
+	glBindVertexArray(VAO);//asignar VAO
+
+	glGenBuffers(1, &IBO);
+	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, IBO);
+	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices[0]) * numberOfIndices, indices, GL_STATIC_DRAW);
+
+	glGenBuffers(1, &VBO);
+	glBindBuffer(GL_ARRAY_BUFFER, VBO);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices[0]) * numOfVertices, vertices, GL_STATIC_DRAW);
+
+
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0);
+	glEnableVertexAttribArray(0);
+	// VBO con el color
+	glGenBuffers(1, &VBO);
+	glBindBuffer(GL_ARRAY_BUFFER, VBO);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(color[0]) * tam_color, color, GL_STATIC_DRAW); 
+	glVertexAttribPointer(1, 4, GL_FLOAT, GL_FALSE, 0, 0);
+	glEnableVertexAttribArray(1);
+
+	glBindBuffer(GL_ARRAY_BUFFER, 0);
+	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
+	glBindVertexArray(0);
+
+}
+	\end{minted}
+	\subsubsection{ejecución del código}
+		\centering 
+	\includegraphics[scale = .90]{img/02_p4.JPG}\\[.25cm] % Imagen1
+	Figura 2 \\[.55cm]
+	\vspace{0.4 cm}
+	
+\raggedright 
+\section{Código}
+Anexo a este documento, se encuentran los códigos creados para realizar esta práctica, tanto como los archivos .cpp como los .h.\\
+
+ \raggedright 	
+\section{Problemas presentados}
+\justify
+No se presentaron problemas durante esta práctica. \\[.2cm]
+
+\section{Conclusiones}
+\justify
+La realización de estos ejercicios no fue difícil, ya que utilizamos todo lo aprendido, lo único nuevo fue la creación de más objetos y la función ortho. \\[0.4cm]
+La parte que costó más trabajo fue la realización de la pirámide con los 9 triángulos ya que teníamos que desplazarlos y rotarlos de tal forma que no hubieran espacios en blanco.
+
+\end{document}
